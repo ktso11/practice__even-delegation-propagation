@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <title>Event Propagation</title>
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+
+  <body>
+
+    <section>
+      <div id="grandparent" class="container">
+        <div id="parent" class="container">
+          <div id="child" class="container" >Click me!</div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="btn-test">
+      <button class="btn">click me</button>
+      <button class="btn">click me</button>
+      <button class="btn">click me</button>
+      <button class="btn">click me</button>
+
+    </section>
+      <button class="create-btn">CREATE A NEW BUTTON</button>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
