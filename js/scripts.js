@@ -2,7 +2,6 @@ console.log("hello world");
 
 $(document).ready(function(){
 
-  document.querySelector('.grandparent');
   var parent = document.querySelector('.btn-test');
   var child = document.querySelector('#child');
   var container = document.getElementsByClassName('container')
